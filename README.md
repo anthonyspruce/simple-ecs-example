@@ -17,6 +17,6 @@ Blue/Green is not configured in this sample, albeit it is recommended.
 
 ## Demo Notes
 This environment is built as a very simple ECS demonstration, and can be expanded on by adding in additional features such as:
-    - Integration with CodePipeline, which sources from something like a Github or CodeCommit repository. This could allow you to build the image dynamically and push into an ECR repo which is then sourced within the pipeline.
-    - Integration with CodeDeploy in order to add a full blue/green deployment scenario.
-    - Implementation of SSL on the ALB endpoint.
+- Integration with CodePipeline, which sources from something like a Github or CodeCommit repository. This could allow you to build the image dynamically and push into an ECR repo which is then sourced within the pipeline.
+- Integration with CodeDeploy in order to add a full blue/green deployment scenario.
+- Implementation of SSL on the ALB endpoint.
